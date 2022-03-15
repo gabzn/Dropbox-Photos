@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Trirong";
+}
+
+body, html{
+    height: 100%;
+}
+
+header{
+    background-color: #35424af8;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0.9rem;
+    font-size: 2rem;
+}
+
+.projects ul{
+    white-space: nowrap;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0;
+    background-color:hsla(180, 1%, 86%, 0.767);
+}
+
+.projects li{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+}
+
+.projects a{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 15px;
+    font-weight: bold;
+    color: rgb(14, 17, 17);
+}
+
+
+.background-image{
+    background-image: url(../Images/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: center;
+    height:100%;
+    opacity: 0.9;
+    position: relative;
+}
+
+.constructionJoke{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    margin-top:0;
+    background-color: rgba(235, 229, 229, 0.24);
+    width: 100%;
+}
+
+p{
+    color: rgb(5, 5, 5);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+input{
+    position: absolute;
+}
+
+input[type="button"]{
+    background-color: rgba(183, 202, 191, 0.89);
+    color: black;
+    padding: 0.5rem;
+    cursor: pointer;
+    border: none;
+}
+
+#Sure{
+    left:30%;
+    border-radius: 50px;
+}
+
+#Nope{
+    left:60%;
+    border-radius: 50px;
+}
+
+.joke{
+    margin-top: 0;
+}
+
+.answer{
+    visibility: hidden;
+    margin-bottom: 0;
+}
+
+input[type="button"]:hover{
+    background-color :rgba(107, 121, 113, 0.89);
+}

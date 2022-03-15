@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Trirong";
+}
+
+body, html{
+    height: 100%;
+}
+
+header{
+    background-color: #35424af8;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0.9rem;
+    font-size: 2rem;
+} 
+
+.projects ul{
+    white-space: nowrap;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0;
+    background-color:hsla(180, 1%, 86%, 0.767);
+}
+
+.projects li{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+}
+
+.projects a{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 15px;
+    font-weight: bold;
+    color: rgb(14, 17, 17);
+}
+
+.background-image{
+    background-image: url(../Images/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: center;
+    height:100%;
+    opacity: 0.9;
+    position: relative;
+}
+
+fieldset{
+    display: flex; 
+    justify-content: center;
+    padding: 0.9rem;
+    margin: 0;
+    border-style: hidden;
+} 
+
+#Keyword{
+    flex-basis: 20rem;
+    margin: 0 1.5rem;
+    padding: 0.4rem;
+    border-radius: 30px;
+    border: 1px solid white;
+    outline: none;
+}
+
+#Submit{
+    border-radius: 30px;
+    border: 1px solid white;
+    outline: none;
+}
+
+#Keyword:focus{
+    border: 2px solid grey;
+}
+
+#Submit:hover{
+    cursor: pointer;
+}

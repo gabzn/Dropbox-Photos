@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Trirong";
+}
+
+body, html{
+    height: 100%;
+}
+
+.projects ul{
+    white-space: nowrap;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0;
+    background-color:hsla(180, 1%, 86%, 0.767);
+}
+
+.projects li{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+}
+
+.projects a{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 15px;
+    font-weight: bold;
+    color: rgb(14, 17, 17);
+}
+
+.background-image{
+    background-image: url(../Images/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: center;
+    height:100%;
+    opacity: 0.9;
+    position: relative;
+}
+
+h2{
+    margin: 0;
+    background-color:rgba(240, 255, 255, 0.26);
+    text-align: center;
+    color: black;
+}
